@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔥 10 Secrets Doctors DON'T Want You To Know! (Page 1 of 49)</title>
+  <style>
+    :root {
+      --primary: #1a73e8;
+      --accent: #ff4500;
+      --bg: #f4f6f8;
+      --text: #222;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding-bottom: 250px;
+      overflow-x: hidden;
+    }
+
+    /* INITIAL SOUND ACTIVATION SPLASH (Bypasses Chrome Autoplay Restrictions) */
+    #audio-gate {
+      position: fixed;
+      top: 0; left: 0; width: 100vw; height: 100vh;
+      background: rgba(0, 0, 0, 0.92);
+      z-index: 9999999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .gate-btn {
+      background: linear-gradient(180deg, #ff0055, #cc0033);
+      color: white;
+      font-size: 26px;
+      font-weight: 900;
+      padding: 20px 45px;
+      border: 4px solid #fff;
+      border-radius: 50px;
+      cursor: pointer;
+      margin-top: 25px;
+      box-shadow: 0 0 40px #ff0055;
+      animation: pulseBtn 0.7s infinite alternate;
+      letter-spacing: 1px;
+    }
+
+    @keyframes pulseBtn {
+      from { transform: scale(1); box-shadow: 0 0 20px #ff0055; }
+      to { transform: scale(1.08); box-shadow: 0 0 50px #ff0055; }
+    }
+
+    /* TOP NEWS HEADER */
+    header {
+      background: #ffffff;
+      border-bottom: 2px solid #e0e0e0;
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: 900;
+      color: #cc0000;
+      letter-spacing: -1px;
+    }
+
+    /* FLOATING RUNAWAY MUTE BUTTON */
+    #mute-btn {
+      position: fixed;
+      bottom: 25px;
+      left: 25px;
+      background: #222;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 14px;
+      border: 2px solid yellow;
+      cursor: pointer;
+      z-index: 999999;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+      transition: all 0.12s ease-out;
+    }
+
+    /* LAYOUT & MAIN ARTICLE */
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: #ffffff;
+      padding: 30px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      border-radius: 8px;
+    }
+
+    h1 {
+      font-size: 32px;
+      line-height: 1.25;
+      color: #111;
+      margin-bottom: 15px;
+    }
+
+    .meta {
+      color: #777;
+      font-size: 13px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+    }
+
+    /* FAKE DECEPTIVE ADS (Layout Shifting) */
+    .banner-ad {
+      background: #fff8e1;
+      border: 2px dashed #ffb300;
+      padding: 18px;
+      margin: 25px 0;
+      text-align: center;
+      transition: height 0.3s;
+    }
+
+    .download-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+      margin: 25px 0;
+    }
+
+    .fake-dl-btn {
+      width: 100%;
+      max-width: 480px;
+      padding: 16px;
+      background: #28a745;
+      color: white;
+      font-size: 20px;
+      font-weight: 800;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(40,167,69,0.4);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .fake-dl-btn:hover {
+      background: #218838;
+    }
+
+    /* STICKY BOTTOM FLOATING VIDEO PLAYER */
+    #floating-video {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 310px;
+      background: #000;
+      border-radius: 12px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+      z-index: 99999;
+      overflow: hidden;
+      border: 2px solid #fff;
+    }
+
+    .video-header {
+      background: #222;
+      color: white;
+      font-size: 11px;
+      padding: 6px 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .video-canvas {
+      width: 100%;
+      height: 160px;
+      background: #111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: yellow;
+      font-weight: bold;
+      text-align: center;
+      font-size: 15px;
+    }
+
+    /* COOKIE WALL OF TORTURE */
+    #cookie-wall {
+      position: fixed;
+      bottom: 0; left: 0; width: 100%;
+      background: #ffffff;
+      border-top: 4px solid #1a73e8;
+      box-shadow: 0 -5px 25px rgba(0,0,0,0.18);
+      padding: 20px;
+      z-index: 99998;
+    }
+
+    /* WHEEL OF FORTUNE MODAL */
+    #wheel-modal {
+      position: fixed;
+      top: 0; left: 0; width: 100vw; height: 100vh;
+      background: rgba(0,0,0,0.75);
+      z-index: 999995;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .wheel-card {
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      text-align: center;
+      max-width: 440px;
+      width: 90%;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+      position: relative;
+    }
+
+    /* SPINNER */
+    #fortune-wheel {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      border: 8px solid #ffcc00;
+      margin: 15px auto;
+      background: conic-gradient(
+        #ff0055 0deg 60deg,
+        #00ccff 60deg 120deg,
+        #ffbb00 120deg 180deg,
+        #00ff66 180deg 240deg,
+        #9900ff 240deg 300deg,
+        #ff0055 300deg 360deg
+      );
+      transition: transform 3s cubic-bezier(0.1, 0.9, 0.2, 1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================== -->
+  <!-- 1. FULLSCREEN SOUND ACTIVATION SPLASH SCREEN   -->
+  <!-- ============================================== -->
+  <div id="audio-gate">
+    <div style="font-size: 70px; margin-bottom: 10px;">🔊⚠️</div>
+    <h1 style="color:#ffffff; font-size:38px; text-shadow:0 0 20px #ff0055;">
+      SITE HAS AUDIO &amp; INTERACTIVE CONTENT
+    </h1>
+    <p style="font-size: 18px; max-width: 550px; color: #ddd; margin-top: 10px;">
+      Browser policy blocks audio autoplay. Click below to enable sound effects and load the content.
+    </p>
+    <button class="gate-btn" onclick="unlockAudioAndStart()">
+      ▶ ENTER SITE &amp; UNMUTE ALL AUDIO
+    </button>
+  </div>
+
+  <!-- Runaway Mute Button -->
+  <div id="mute-btn" onmouseover="dodgeMute()" onclick="toggleMuteSpite()">
+    🔊 MUTE SOUND (<span id="mute-label">Playing</span>)
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">DailyInformer 24/7</div>
+    <div style="font-size:12px; color:#555;">⚡ BREAKING NEWS &bull; UPDATED 1 MIN AGO</div>
+  </header>
+
+  <!-- Article Container -->
+  <div class="container">
+    <h1>Doctors Are Furious: The 1-Minute Habit That Melts 900 lbs Overnight</h1>
+    <div class="meta">By Dr. Real Doctor, MD &bull; Published Today &bull; 8,421,902 Views</div>
+
+    <!-- Random Expanding Banner Ad 1 -->
+    <div class="banner-ad" id="ad-shift-1">
+      <span style="font-size:11px; color:#999; text-transform:uppercase;">Sponsored Advertisement</span>
+      <h3 style="color:#cc0000; margin:5px 0;">🎉 CONGRATULATIONS! You are our 1,000,000th visitor today!</h3>
+      <p style="font-size:14px;">Claim your complimentary 2026 Sports Car before the timer expires!</p>
+    </div>
+
+    <p style="font-size:18px; margin-bottom:18px;">
+      For centuries, nutrition scientists believed the human body required food and water. However, revolutionary new studies conducted in an undisclosed basement have shattered modern medical science.
+    </p>
+
+    <!-- Fake Download Trap Section -->
+    <div style="background:#f0f7ff; border:2px solid #b8daff; padding:20px; border-radius:8px; text-align:center;">
+      <h2 style="color:#004085; font-size:22px; margin-bottom:10px;">📥 Download the Official Medical PDF Report</h2>
+      <p style="font-size:13px; color:#555; margin-bottom:15px;">Choose the fast high-speed server below:</p>
+
+      <div class="download-grid">
+        <button class="fake-dl-btn" onclick="fakeDownloadTrap('Cloud Server 1')">
+          ⚡ DOWNLOAD NOW (FAST) &rarr;
+        </button>
+        <button class="fake-dl-btn" style="background:#007bff;" onclick="fakeDownloadTrap('Direct Mirror')">
+          ⬇ DIRECT MIRROR DOWNLOAD (.EXE)
+        </button>
+        <button class="fake-dl-btn" style="background:#ff9900;" onclick="fakeDownloadTrap('High Speed Zip')">
+          📦 DOWNLOAD ULTRA HIGH SPEED (.ZIP)
+        </button>
+      </div>
+
+      <small style="color:#999; font-size:11px;">
+        Real download link: <a href="javascript:void(0)" onclick="fakeDownloadTrap('Tiny Link')" style="color:#999;">click here (0.001KB)</a>
+      </small>
+    </div>
+
+    <!-- Ad Layout Shift Section 2 -->
+    <div class="banner-ad" id="ad-shift-2" style="background:#e8f5e9; border-color:#81c784;">
+      <h3 style="color:#2e7d32;">🦠 Is Your Carpet Making You Tired?</h3>
+      <p style="font-size:14px;">Scientists find 42 trillion dust creatures sleeping in your pillow. Click to eliminate them.</p>
+      <button style="margin-top:10px; padding:8px 20px; background:#2e7d32; color:white; border:none; border-radius:4px; font-weight:bold; cursor:pointer;" onclick="playAirhornSound()">
+        Spray Anti-Dust Laser
+      </button>
+    </div>
+
+    <p style="font-size:18px; margin-top:20px;">
+      In conclusion, always ensure your monitor's brightness is calibrated to maximum wattage for optimal article absorption. Continue to Page 2 of 49 to read the actual sentence.
+    </p>
+
+    <!-- Endless Pagination Trap -->
+    <div style="text-align:center; margin-top:35px;">
+      <button style="padding:14px 35px; font-size:18px; background:#cc0000; color:white; font-weight:bold; border:none; border-radius:6px; cursor:pointer;" onclick="nextPageTroll()">
+        NEXT PAGE (Page 1 of 49) &rarr;
+      </button>
+    </div>
+  </div>
+
+  <!-- ============================================== -->
+  <!-- 2. STICKY FLOATING UNCLOSABLE VIDEO AD         -->
+  <!-- ============================================== -->
+  <div id="floating-video">
+    <div class="video-header">
+      <span>▶ SPONSORED VIDEO (0:15 / 45:00)</span>
+      <span style="cursor:pointer; font-weight:bold;" onclick="closeVideoTroll()">✕</span>
+    </div>
+    <div class="video-canvas" id="video-content">
+      🎵 CARNIVAL CHAOS MUSIC BLARING 🎵
+    </div>
+    <div style="padding:8px; font-size:11px; background:#111; color:#fff; display:flex; justify-content:space-between;">
+      <span>Volume: 100% 🔊</span>
+      <span style="color:#ffcc00; cursor:pointer;" onclick="playAirhornSound()">Learn More &rarr;</span>
+    </div>
+  </div>
+
+  <!-- ============================================== -->
+  <!-- 3. COOKIE CONSENT WALL (CANNOT REJECT)         -->
+  <!-- ============================================== -->
+  <div id="cookie-wall">
+    <div style="max-width:900px; margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:15px;">
+      <div style="flex:1; min-width:300px;">
+        <strong style="font-size:15px;">🍪 We Respect Your Privacy!</strong>
+        <p style="font-size:12px; color:#666; margin-top:4px;">
+          We and our 9,482 marketing partners place tracking beacons on your refrigerator to personalize grocery suggestions.
+        </p>
+      </div>
+      <div style="display:flex; gap:10px;">
+        <button style="padding:10px 20px; background:#1a73e8; color:white; border:none; border-radius:4px; font-weight:bold; cursor:pointer;" onclick="acceptCookies()">
+          Accept All 9,482 Partners
+        </button>
+        <button style="padding:10px 16px; background:#eee; border:1px solid #ccc; border-radius:4px; font-size:12px; cursor:pointer;" onclick="openCookieCustomizer()">
+          Manage 4,000 Preferences
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================== -->
+  <!-- 4. SPIN THE WHEEL CASINO POPUP                 -->
+  <!-- ============================================== -->
+  <div id="wheel-modal">
+    <div class="wheel-card">
+      <h2 style="color:#ff0055; margin-bottom:5px;">🎰 YOU HAVE 1 FREE SPIN!</h2>
+      <p style="font-size:13px; color:#555;">Spin now to win a brand new iPad 2 or 10,000 Spam Emails!</p>
+      <div id="fortune-wheel"></div>
+      <button style="padding:12px 30px; background:#ffbb00; color:#000; font-size:18px; font-weight:900; border:none; border-radius:30px; cursor:pointer; box-shadow:0 4px 15px rgba(255,187,0,0.5);" onclick="spinWheel()">
+        🎲 SPIN THE WHEEL NOW!
+      </button>
+      <div style="margin-top:12px;">
+        <span style="font-size:11px; color:#999; text-decoration:underline; cursor:pointer;" onclick="dismissWheel()">No thanks, I dislike winning</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ==========================================
+    // BULLETPROOF WEB AUDIO SYNTHESIZER ENGINE
+    // ==========================================
+    let audioCtx = null;
+    let isMuted = false;
+    let musicInterval = null;
+
+    function initAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+    }
+
+    // 1. Relentless Upbeat Carnival / Circus Music Synth
+    function startCarnivalMusic() {
+      initAudio();
+      if (!audioCtx) return;
+
+      // Catchy high-tempo circus arpeggio
+      const notes = [
+        261.63, 293.66, 329.63, 349.23, 392.00, 440.00, 493.88, 523.25,
+        587.33, 523.25, 493.88, 440.00, 392.00, 349.23, 329.63, 293.66
+      ];
+      let step = 0;
+
+      if (musicInterval) clearInterval(musicInterval);
+
+      musicInterval = setInterval(() => {
+        if (isMuted || !audioCtx) return;
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+
+        // Alternating cheerful organ square/triangle
+        osc.type = step % 4 === 0 ? 'sawtooth' : 'triangle';
+        osc.frequency.setValueAtTime(notes[step % notes.length], audioCtx.currentTime);
+
+        gain.gain.setValueAtTime(0.18, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.16);
+
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.16);
+
+        step++;
+      }, 160); // 160ms = fast upbeat tempo
+    }
+
+    // 2. Loud Airhorn SFX
+    function playAirhornSound() {
+      initAudio();
+      if (!audioCtx || isMuted) return;
+
+      const freqs = [233.08, 293.66, 349.23, 466.16];
+      freqs.forEach(f => {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(f, audioCtx.currentTime);
+        gain.gain.setValueAtTime(0.25, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.5);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.5);
+      });
+    }
+
+    // 3. Cartoon Boing / Squeak SFX
+    function playCartoonBoing() {
+      initAudio();
+      if (!audioCtx || isMuted) return;
+
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(150, audioCtx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(800, audioCtx.currentTime + 0.3);
+
+      gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.3);
+
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.3);
+    }
+
+    // 4. Casino JackPot Ding
+    function playJackpotDing() {
+      initAudio();
+      if (!audioCtx || isMuted) return;
+
+      [523.25, 659.25, 783.99, 1046.50].forEach((f, i) => {
+        setTimeout(() => {
+          const osc = audioCtx.createOscillator();
+          const gain = audioCtx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(f, audioCtx.currentTime);
+          gain.gain.setValueAtTime(0.25, audioCtx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.4);
+          osc.connect(gain);
+          gain.connect(audioCtx.destination);
+          osc.start();
+          osc.stop(audioCtx.currentTime + 0.4);
+        }, i * 90);
+      });
+    }
+
+    // ==========================================
+    // USER UNMUTE SPLASH TRIGGER
+    // ==========================================
+    function unlockAudioAndStart() {
+      initAudio();
+      document.getElementById('audio-gate').style.display = 'none';
+      startCarnivalMusic();
+      playJackpotDing();
+
+      // Trigger Casino Wheel after 4 seconds
+      setTimeout(() => {
+        document.getElementById('wheel-modal').style.display = 'flex';
+        playAirhornSound();
+      }, 3500);
+
+      // Start automatic layout shifting (Cumulative Layout Shift)
+      startLayoutShifting();
+    }
+
+    // ==========================================
+    // DODGING MUTE BUTTON
+    // ==========================================
+    let muteDodgeCount = 0;
+    function dodgeMute() {
+      const btn = document.getElementById('mute-btn');
+      muteDodgeCount++;
+      playCartoonBoing();
+
+      const newX = Math.random() * (window.innerWidth - 200);
+      const newY = Math.random() * (window.innerHeight - 80);
+
+      btn.style.left = newX + 'px';
+      btn.style.bottom = 'auto';
+      btn.style.top = newY + 'px';
+    }
+
+    function toggleMuteSpite() {
+      playAirhornSound();
+      alert("🔊 ACTION DENIED: Muting is disabled by website sponsor!");
+    }
+
+    // ==========================================
+    // FAKE DOWNLOAD TRAPS
+    // ==========================================
+    function fakeDownloadTrap(serverName) {
+      playAirhornSound();
+      alert(`⚠️ You clicked "${serverName}"!\n\nYour download will begin after you complete 7 mandatory surveys.`);
+    }
+
+    // ==========================================
+    // CUMULATIVE LAYOUT SHIFT (Jumping elements)
+    // ==========================================
+    function startLayoutShifting() {
+      setInterval(() => {
+        const ad1 = document.getElementById('ad-shift-1');
+        const currentH = ad1.clientHeight;
+        ad1.style.padding = currentH > 100 ? '12px' : '45px 12px';
+      }, 2500);
+    }
+
+    // ==========================================
+    // UNCLOSABLE STICKY VIDEO
+    // ==========================================
+    function closeVideoTroll() {
+      playCartoonBoing();
+      const vid = document.getElementById('floating-video');
+      // Jump to opposite corner instead of closing
+      if (vid.style.left === '20px') {
+        vid.style.left = 'auto';
+        vid.style.right = '20px';
+      } else {
+        vid.style.right = 'auto';
+        vid.style.left = '20px';
+      }
+      alert("⚠️ Closing sponsored video will pause article download!");
+    }
+
+    // ==========================================
+    // COOKIE ACTIONS
+    // ==========================================
+    function acceptCookies() {
+      playJackpotDing();
+      document.getElementById('cookie-wall').style.display = 'none';
+      alert("✅ Thank you! 9,482 tracking beacons successfully deployed.");
+    }
+
+    function openCookieCustomizer() {
+      playCartoonBoing();
+      alert("Error: 4,000 preference checkboxes could not fit in browser memory. Accepting all cookies instead!");
+      acceptCookies();
+    }
+
+    // ==========================================
+    // CASINO WHEEL OF MISFORTUNE
+    // ==========================================
+    function spinWheel() {
+      const wheel = document.getElementById('fortune-wheel');
+      playAirhornSound();
+      const deg = 1440 + Math.floor(Math.random() * 360);
+      wheel.style.transform = `rotate(${deg}deg)`;
+
+      setTimeout(() => {
+        playJackpotDing();
+        alert("🎉 WINNER! You have won: 500 BILLION SPAM NOTIFICATIONS!");
+        dismissWheel();
+      }, 3100);
+    }
+
+    function dismissWheel() {
+      document.getElementById('wheel-modal').style.display = 'none';
+    }
+
+    // ==========================================
+    // ENDLESS PAGINATION TROLL
+    // ==========================================
+    function nextPageTroll() {
+      playCartoonBoing();
+      alert("Redirecting to Page 2 of 49... (Please wait 60 seconds for ad refresh)");
+      playAirhornSound();
+    }
+  </script>
+</body>
+</html>
